@@ -1,0 +1,28 @@
+{
+  "name": "nsis-nuts",
+  "version": "0.1.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evshiron/nsis-nuts.git"
+  },
+  "author": "evshiron",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/evshiron/nsis-nuts/issues"
+  },
+  "homepage": "https://github.com/evshiron/nsis-nuts#readme",
+  "dependencies": {
+    "debug": "^2.6.0",
+    "express": "^4.14.0",
+    "github-api": "^3.0.0",
+    "js-yaml": "^3.7.0",
+    "morgan": "^1.7.0",
+    "request": "^2.79.0",
+    "serve-static": "^1.11.2"
+  }
+}
