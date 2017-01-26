@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/evshiron/nsis-nuts#readme",
   "dependencies": {
+    "bluebird": "^3.4.7",
     "debug": "^2.6.0",
     "express": "^4.14.0",
     "github-api": "^3.0.0",
