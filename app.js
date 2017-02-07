@@ -11,6 +11,7 @@ app.use('*', morgan('combined'));
 app.use('/', nsisSync({
     user: 'evshiron',
     repo: 'phantom',
+    syncPreReleases: true,
 }));
 
 app.listen(1337);
