@@ -14,4 +14,12 @@ app.use('/', nsisSync({
     syncPreReleases: true,
 }));
 
+app.use((err, req, res, next) => {
+
+    console.error(err);
+
+    return res.status(500).end('INTERNAL_SERVER_ERROR');
+
+});
+
 app.listen(1337);
